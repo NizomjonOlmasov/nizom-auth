@@ -19,7 +19,7 @@ const Auth=()=> {
         <input type="password" className="form-control  mt-3" id="floatingPassword" placeholder="Password"/>
         <label htmlFor="floatingPassword">Password</label>
       </div>
-  <button className="w-100 btn btn-lg mt-2 btn-primary" type="submit">Sign in</button>
+  <button className="w-100 btn btn-lg mt-2 btn-primary" type="submit">{auth==='signup'? 'Sign in':'Sign up'}</button>
 <p className='mt-2 fw-bold'>
 
 {auth ==='signup' ? 'Already have account ' : 'Not account yet '}{' '}
